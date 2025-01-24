@@ -4,7 +4,7 @@
 
 Author:         Mousymous
 Theme:          Silouhette
-Description:    A Project written in C++ of two shogun having a duel.
+Description:    A Work on Progress Project written in C++ of two shogun having a duel.
 
 Design:
 
