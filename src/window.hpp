@@ -13,7 +13,7 @@ public:
     {}
 
     // Initialize the winodw canvas
-    void window_init() {
+    void window_init(Background_Class &background_class) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Window Setup
@@ -33,10 +33,17 @@ public:
             // Render Sprites here under window -> clear();
 
             window -> clear();
+
+            window -> draw(background_class.background_sprite);
             window -> display();
         }
 
         window -> close();
+    }
+
+    // Function to fetch the window size to deliver to Background_Class::setup_background();
+    const sf::Vector2u get_window_size() {
+        return window -> getSize();
     }
 
 private:

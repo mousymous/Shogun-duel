@@ -11,6 +11,7 @@
 
 // Personal libraries
 #include "logger.hpp"
+#include "backgroung.hpp"
 #include "window.hpp"
 
 #endif
