@@ -66,3 +66,6 @@
 [2025-01-25 20:24:28.025] [file-log] [info] Main: Initializing
 [2025-01-25 20:24:28.190] [file-log] [info] Background: Initializing
 [2025-01-25 20:24:28.252] [file-log] [info] Window: Initializing
+[2025-01-25 20:32:21.262] [file-log] [info] Main: Initializing
+[2025-01-25 20:32:21.434] [file-log] [info] Background: Initializing
+[2025-01-25 20:32:21.505] [file-log] [info] Window: Initializing

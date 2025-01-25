@@ -12,7 +12,7 @@
 // Personal libraries
 #include "logger.hpp"
 #include "backgroung.hpp"
-#include "player.hpp"
+#include "rect.hpp"
 #include "window.hpp"
 
 #endif
