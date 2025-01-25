@@ -18,6 +18,14 @@ Standard C++ Library
 Spdlogs                 https://github.com/gabime/spdlog 
 SFML                    https://www.sfml-dev.org/
 
-# Progress
+# Things to do
 
-Add animation class and a logic that wraps it around the rect class
+- Add proper descriptive comments to all file
+
+- Add proper logging
+
+- Configure Rect Class to make it as a modular template for creating entities
+  textures will be the job of Texture_Class instead
+
+- Add Player Class and by using Rect Class and Texture Class create a samurai 
+  that have proper animation based on movements
