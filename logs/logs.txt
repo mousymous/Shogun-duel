@@ -69,3 +69,74 @@
 [2025-01-25 20:32:21.262] [file-log] [info] Main: Initializing
 [2025-01-25 20:32:21.434] [file-log] [info] Background: Initializing
 [2025-01-25 20:32:21.505] [file-log] [info] Window: Initializing
+[2025-01-26 01:42:51.335] [file-log] [info] Main: Initializing
+[2025-01-26 01:42:51.556] [file-log] [info] Background: Initializing
+[2025-01-26 01:42:51.750] [file-log] [info] Window: Initializing
+[2025-01-26 02:18:54.866] [file-log] [info] Main: Initializing
+[2025-01-26 02:18:55.081] [file-log] [info] Background: Initializing
+[2025-01-26 02:18:55.155] [file-log] [info] Window: Initializing
+[2025-01-26 02:20:47.824] [file-log] [info] Main: Initializing
+[2025-01-26 02:20:47.997] [file-log] [info] Background: Initializing
+[2025-01-26 02:20:48.063] [file-log] [info] Window: Initializing
+[2025-01-26 02:21:55.522] [file-log] [info] Main: Initializing
+[2025-01-26 02:21:55.719] [file-log] [info] Background: Initializing
+[2025-01-26 02:21:55.779] [file-log] [info] Window: Initializing
+[2025-01-26 02:28:30.567] [file-log] [info] Main: Initializing
+[2025-01-26 02:28:30.730] [file-log] [info] Background: Initializing
+[2025-01-26 02:28:30.790] [file-log] [info] Window: Initializing
+[2025-01-26 02:34:40.152] [file-log] [info] Main: Initializing
+[2025-01-26 02:34:40.313] [file-log] [info] Background: Initializing
+[2025-01-26 02:34:40.372] [file-log] [info] Window: Initializing
+[2025-01-26 02:36:06.779] [file-log] [info] Main: Initializing
+[2025-01-26 02:36:06.942] [file-log] [info] Background: Initializing
+[2025-01-26 02:36:07.002] [file-log] [info] Window: Initializing
+[2025-01-26 02:37:49.693] [file-log] [info] Main: Initializing
+[2025-01-26 02:37:49.885] [file-log] [info] Texture: Load Success
+[2025-01-26 02:37:49.885] [file-log] [info] Background: Initializing
+[2025-01-26 02:37:49.954] [file-log] [info] Window: Initializing
+[2025-01-26 02:38:40.265] [file-log] [info] Main: Initializing
+[2025-01-26 02:38:40.428] [file-log] [info] Texture: Load Success
+[2025-01-26 02:38:40.428] [file-log] [info] Background: Initializing
+[2025-01-26 02:38:40.491] [file-log] [info] Window: Initializing
+[2025-01-26 02:47:11.997] [file-log] [info] Main: Initializing
+[2025-01-26 02:47:12.199] [file-log] [info] Texture: Load success
+[2025-01-26 02:47:12.199] [file-log] [info] Background: Initializing
+[2025-01-26 02:47:12.258] [file-log] [info] Window: Initializing
+[2025-01-26 02:47:50.582] [file-log] [info] Main: Initializing
+[2025-01-26 02:47:50.757] [file-log] [info] Texture: Load success
+[2025-01-26 02:47:50.757] [file-log] [info] Background: Initializing
+[2025-01-26 02:47:50.819] [file-log] [info] Window: Initializing
+[2025-01-26 02:48:32.860] [file-log] [info] Main: Initializing
+[2025-01-26 02:48:33.042] [file-log] [info] Texture: Load success
+[2025-01-26 02:48:33.042] [file-log] [info] Background: Initializing
+[2025-01-26 02:48:33.099] [file-log] [info] Window: Initializing
+[2025-01-26 02:49:09.874] [file-log] [info] Main: Initializing
+[2025-01-26 02:49:10.054] [file-log] [info] Texture: Load success
+[2025-01-26 02:49:10.054] [file-log] [info] Background: Initializing
+[2025-01-26 02:49:10.111] [file-log] [info] Window: Initializing
+[2025-01-26 02:49:47.965] [file-log] [info] Main: Initializing
+[2025-01-26 02:49:48.150] [file-log] [info] Texture: Load success
+[2025-01-26 02:49:48.150] [file-log] [info] Background: Initializing
+[2025-01-26 02:49:48.206] [file-log] [info] Window: Initializing
+[2025-01-26 02:50:22.847] [file-log] [info] Main: Initializing
+[2025-01-26 02:50:23.033] [file-log] [info] Texture: Load success
+[2025-01-26 02:50:23.033] [file-log] [info] Background: Initializing
+[2025-01-26 02:50:23.092] [file-log] [info] Window: Initializing
+[2025-01-26 02:51:54.457] [file-log] [info] Main: Initializing
+[2025-01-26 02:51:54.647] [file-log] [info] Texture: Load success
+[2025-01-26 02:51:54.648] [file-log] [info] Background: Initializing
+[2025-01-26 02:51:54.707] [file-log] [info] Window: Initializing
+[2025-01-26 02:52:35.227] [file-log] [info] Main: Initializing
+[2025-01-26 02:52:35.420] [file-log] [info] Texture: Load success
+[2025-01-26 02:52:35.420] [file-log] [info] Background: Initializing
+[2025-01-26 02:52:35.484] [file-log] [info] Window: Initializing
+[2025-01-26 03:00:53.189] [file-log] [info] Main: Initializing
+[2025-01-26 03:00:53.458] [file-log] [info] Texture: Load success
+[2025-01-26 03:00:53.458] [file-log] [info] Background: Initializing
+[2025-01-26 03:00:53.535] [file-log] [info] Window: Initializing
+[2025-01-26 03:11:10.000] [file-log] [info] Main: Initializing
+[2025-01-26 03:11:10.176] [file-log] [info] Background: Initializing
+[2025-01-26 03:11:10.237] [file-log] [info] Window: Initializing
+[2025-01-26 03:27:48.837] [file-log] [info] Main: Initializing
+[2025-01-26 03:27:49.020] [file-log] [info] Background: Initializing
+[2025-01-26 03:27:49.089] [file-log] [info] Window: Initializing

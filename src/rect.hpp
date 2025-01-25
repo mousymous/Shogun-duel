@@ -13,7 +13,7 @@ public:
     }
 
     // rect variable
-    sf::RectangleShape rect{sf::Vector2f(10, 20)};
+    sf::RectangleShape rect{sf::Vector2f(200, 200)};
 
     // Sets the rect position
     void rect_set_position(sf::Vector2f player_position) {
