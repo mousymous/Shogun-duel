@@ -17,3 +17,7 @@ Name                    Links
 Standard C++ Library
 Spdlogs                 https://github.com/gabime/spdlog 
 SFML                    https://www.sfml-dev.org/
+
+# Progress
+
+Add animation class and a logic that wraps it around the rect class

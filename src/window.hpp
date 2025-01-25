@@ -13,7 +13,7 @@ public:
     {}
 
     // Initialize the winodw canvas
-    void window_init(Background_Class &background_class) {
+    void window_init(Background_Class &mountain_background, Rect_Class &samurai) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Window Setup
@@ -32,9 +32,13 @@ public:
 
             // Render Sprites here under window -> clear();
 
+            samurai.rect_movement_logic();
+
             window -> clear();
 
-            window -> draw(background_class.background_sprite);
+            window -> draw(mountain_background.background_sprite);
+            window -> draw(samurai.rect);
+
             window -> display();
         }
 
