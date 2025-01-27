@@ -98,12 +98,14 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 - **Purpose**: <br>
     `Entity` is a class that can be used to create entities with 2 direction movement in x and -x <br>
-     controlled with controls `A` and `D` and an attack mechanic that works when pressing `Space Bar`
-     1. It takes 5 arguments Rect, 4 spritesheet class and entity movement speed
-     2. With proper arguments you can create a functioning entity
+     controlled with controls `A` and `D` and an attack mechanic that works when pressing `Space Bar`<br
+
+- **Features:**<br>
+     1. It takes 5 arguments Rect, 4 spritesheet class and entity movement speed<br>
+     2. With proper arguments you can create a functioning entity<br>
 
 ---<br>
 
-- **Things to do**:<br>
-  - Add descriptive comments and logs in file `entity.hpp`
+### Things to do:<br>
+  - Add descriptive comments and logs in file `entity.hpp`<br>
   - Do not worry about health bars and hitboxes for now; those can be addressed later.<br>
