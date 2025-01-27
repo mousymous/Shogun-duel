@@ -60,7 +60,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 - **Things to Change**:<br>
   1. ✅ Add proper comments.(completed)<br>
-  2. Add more logging.<br>
+  2. ✅ Add more logging. (completed)<br>
 
 ---<br>
 
@@ -70,7 +70,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
   This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect::rect`).<br>
 
 - **Things to Change**:<br>
-  1. Add comments to explain the functionality to avoid forgetting how it works.<br>
+  1. ✅ Add comments to explain the functionality to avoid forgetting how it works. (completed)<br>
 
 ---<br>
 
