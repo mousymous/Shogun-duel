@@ -22,7 +22,7 @@
 2. Add proper logging<br>
 
 3. Configure Rect Class to make it as a modular template for creating entities<br>
-  - Textures will be the job of Texture_Class instead<br>
+  - Textures will be the job of Texture instead<br>
 4. Add Player Class and by using Rect Class and Texture Class create a samurai<br>
   - with proper animation based on movements
 
@@ -67,7 +67,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 ## Spritesheet_Animator(`texture.hpp`)<br>
 
 - **Purpose**:<br>
-  This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect_Class::rect`).<br>
+  This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect::rect`).<br>
 
 - **Things to Change**:<br>
   1. Add comments to explain the functionality to avoid forgetting how it works.<br>
@@ -78,13 +78,13 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 - **Purpose**:<br>
   This class serves as a template for creating new entities.<br>
-  Note: Entities created by this class have no textures or animations. These are applied using the `Texture_Class`.<br>
+  Note: Entities created by this class have no textures or animations. These are applied using the `Texture`.<br>
 
 - **Features**:<br>
   - Utilizes `sf::RectangleShape`, which comes with pre-coded hitbox properties.<br>
 
 - **Things to Change**:<br>
-  1. Remove the movement function from the `Rect_Class`.<br>
+  1. Remove the movement function from the `Rect`.<br>
   2. Encapsulate the `rect` variable and use a getter function to draw it in the window.<br>
   3. Add loggers and comments to the class.<br>
 
@@ -93,9 +93,9 @@ I wrote this so that I know what to do next, as this project is too big for me t
 ## Things to Add<br>
 
 - **Player Class**:<br>
-  After fixing `Rect_Class` and making changes to `Texture_Class`, combine the two to create a `Player_Class`.<br>
-  - The `Player_Class` should represent the samurai with proper textures and animations based on movement direction.<br>
+  After fixing `Rect` and making changes to `Texture`, combine the two to create a `Player`.<br>
+  - The `Player` should represent the samurai with proper textures and animations based on movement direction.<br>
 
 - **Notes**:<br>
-  - Focus on the `Player_Class` first and prioritize its implementation.<br>
+  - Focus on the `Player` first and prioritize its implementation.<br>
   - Do not worry about health bars and hitboxes for now; those can be addressed later.<br>
