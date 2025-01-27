@@ -78,7 +78,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 - **Purpose**:<br>
   This class serves as a template for creating new entities.<br>
-  Note: Entities created by this class have no textures or animations. These are applied using the `Texture`.<br>
+  Note: Entities created by this class have no textures or animations. These are applied using the `Spritesheet Class`.<br>
 
 - **Features**:<br>
   - Utilizes `sf::RectangleShape`, which comes with pre-coded hitbox properties.<br>
@@ -89,15 +89,15 @@ I wrote this so that I know what to do next, as this project is too big for me t
   3. ✅ Add loggers and comments to the class.<br>
 
 - **Added**
-  1. You can now a custom color for the rect<br>
+  1. You can now have a custom color for the rect<br>
   2. it now has a function getter that returns the rect variable as a reference<br>
 ---<br>
 
 ## Things to Add<br>
 
 - **Entity Class**:<br>
-  After fixing `Rect` and making changes to `Texture`, combine the two to create a `Entity`.<br>
-  - The `Entity` should represent the samurai with proper textures and animations based on movement direction and other entities.<br>
+  After fixing `Rect Class` and making changes to `Spritesheet Class`, combine the two to create an `Entity Class`.<br>
+  - The `Entity` object should represent the samurai with proper textures and animations based on movement direction and other entities.<br>
 
 - **Notes**:<br>
   - Rect class and Spritesheet Class can now work together externally<br>
