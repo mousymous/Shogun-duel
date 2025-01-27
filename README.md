@@ -64,7 +64,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 ---<br>
 
-## Spritesheet_Animator(`texture.hpp`)<br>
+## Spritesheet_Animator(`spritesheet.hpp`)<br>
 
 - **Purpose**:<br>
   This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect::rect`).<br>
