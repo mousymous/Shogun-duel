@@ -143,3 +143,7 @@
 [2025-01-27 08:30:52.617] [file-log] [info] Main: Initializing
 [2025-01-27 08:30:52.791] [file-log] [info] Background: Initializing
 [2025-01-27 08:30:52.876] [file-log] [info] Window: Initializing
+[2025-01-27 09:06:36.900] [file-log] [info] Main: Initializing
+[2025-01-27 09:06:37.077] [file-log] [info] Background: Initializing
+[2025-01-27 09:06:37.144] [file-log] [info] Window: Initializing
+[2025-01-27 09:06:38.689] [file-log] [info] Window: Close button has been pressed

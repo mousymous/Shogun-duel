@@ -59,7 +59,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
   This class is not templated but serves as a container. All events and updates are managed within the class object.<br>
 
 - **Things to Change**:<br>
-  1. Add proper comments.<br>
+  1. ✅ Add proper comments.(completed)<br>
   2. Add more logging.<br>
 
 ---<br>
