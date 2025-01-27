@@ -147,3 +147,188 @@
 [2025-01-27 09:06:37.077] [file-log] [info] Background: Initializing
 [2025-01-27 09:06:37.144] [file-log] [info] Window: Initializing
 [2025-01-27 09:06:38.689] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:12:05.556] [file-log] [info] Main: Initializing
+[2025-01-27 19:12:05.726] [file-log] [info] Background: Initializing
+[2025-01-27 19:12:05.809] [file-log] [info] Texture: Load success
+[2025-01-27 19:12:05.809] [file-log] [info] Window: Initializing
+[2025-01-27 19:12:15.467] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:13:39.104] [file-log] [info] Main: Initializing
+[2025-01-27 19:13:39.283] [file-log] [info] Background: Initializing
+[2025-01-27 19:13:39.556] [file-log] [info] Texture: Load success
+[2025-01-27 19:13:39.556] [file-log] [info] Window: Initializing
+[2025-01-27 19:13:41.578] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:16:17.280] [file-log] [info] Main: Initializing
+[2025-01-27 19:16:17.452] [file-log] [info] Background: Initializing
+[2025-01-27 19:16:17.568] [file-log] [info] Texture: Load success
+[2025-01-27 19:16:17.568] [file-log] [info] Window: Initializing
+[2025-01-27 19:16:19.884] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:17:56.648] [file-log] [info] Main: Initializing
+[2025-01-27 19:17:56.810] [file-log] [info] Background: Initializing
+[2025-01-27 19:17:56.877] [file-log] [info] Texture: Load success
+[2025-01-27 19:17:56.877] [file-log] [info] Window: Initializing
+[2025-01-27 19:18:07.640] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:19:15.368] [file-log] [info] Main: Initializing
+[2025-01-27 19:19:15.544] [file-log] [info] Background: Initializing
+[2025-01-27 19:19:15.615] [file-log] [info] Texture: Load success
+[2025-01-27 19:19:15.615] [file-log] [info] Window: Initializing
+[2025-01-27 19:19:28.680] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:20:38.319] [file-log] [info] Main: Initializing
+[2025-01-27 19:20:38.493] [file-log] [info] Background: Initializing
+[2025-01-27 19:20:38.563] [file-log] [info] Texture: Load success
+[2025-01-27 19:20:38.563] [file-log] [info] Window: Initializing
+[2025-01-27 19:20:43.666] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:22:20.306] [file-log] [info] Main: Initializing
+[2025-01-27 19:22:20.528] [file-log] [info] Background: Initializing
+[2025-01-27 19:22:20.616] [file-log] [info] Texture: Load success
+[2025-01-27 19:22:20.616] [file-log] [info] Window: Initializing
+[2025-01-27 19:22:33.728] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:23:15.565] [file-log] [info] Main: Initializing
+[2025-01-27 19:23:15.750] [file-log] [info] Background: Initializing
+[2025-01-27 19:23:15.818] [file-log] [info] Texture: Load success
+[2025-01-27 19:23:15.818] [file-log] [info] Window: Initializing
+[2025-01-27 19:23:19.229] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:23:41.440] [file-log] [info] Main: Initializing
+[2025-01-27 19:23:41.609] [file-log] [info] Background: Initializing
+[2025-01-27 19:23:41.688] [file-log] [info] Texture: Load success
+[2025-01-27 19:23:41.688] [file-log] [info] Window: Initializing
+[2025-01-27 19:23:46.458] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:26:42.524] [file-log] [info] Main: Initializing
+[2025-01-27 19:26:42.687] [file-log] [info] Background: Initializing
+[2025-01-27 19:26:42.752] [file-log] [info] Texture: Load success
+[2025-01-27 19:26:42.752] [file-log] [info] Window: Initializing
+[2025-01-27 19:26:53.625] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:38:03.637] [file-log] [info] Main: Initializing
+[2025-01-27 19:38:03.804] [file-log] [info] Background: Initializing
+[2025-01-27 19:38:03.893] [file-log] [info] Texture: Load success
+[2025-01-27 19:38:03.896] [file-log] [info] Texture: Load success
+[2025-01-27 19:38:03.900] [file-log] [info] Texture: Load success
+[2025-01-27 19:38:03.900] [file-log] [info] Window: Initializing
+[2025-01-27 19:38:15.236] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:39:10.968] [file-log] [info] Main: Initializing
+[2025-01-27 19:39:11.140] [file-log] [info] Background: Initializing
+[2025-01-27 19:39:11.217] [file-log] [info] Texture: Load success
+[2025-01-27 19:39:11.220] [file-log] [info] Texture: Load success
+[2025-01-27 19:39:11.227] [file-log] [info] Texture: Load success
+[2025-01-27 19:39:11.227] [file-log] [info] Window: Initializing
+[2025-01-27 19:39:16.915] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:41:38.965] [file-log] [info] Main: Initializing
+[2025-01-27 19:41:39.130] [file-log] [info] Background: Initializing
+[2025-01-27 19:41:39.195] [file-log] [info] Texture: Load success
+[2025-01-27 19:41:39.197] [file-log] [info] Texture: Load success
+[2025-01-27 19:41:39.202] [file-log] [info] Texture: Load success
+[2025-01-27 19:41:39.202] [file-log] [info] Window: Initializing
+[2025-01-27 19:41:42.895] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:42:34.706] [file-log] [info] Main: Initializing
+[2025-01-27 19:42:34.901] [file-log] [info] Background: Initializing
+[2025-01-27 19:42:34.969] [file-log] [info] Texture: Load success
+[2025-01-27 19:42:34.972] [file-log] [info] Texture: Load success
+[2025-01-27 19:42:34.977] [file-log] [info] Texture: Load success
+[2025-01-27 19:42:34.977] [file-log] [info] Window: Initializing
+[2025-01-27 19:42:40.818] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:44:10.508] [file-log] [info] Main: Initializing
+[2025-01-27 19:44:10.703] [file-log] [info] Background: Initializing
+[2025-01-27 19:44:10.776] [file-log] [info] Texture: Load success
+[2025-01-27 19:44:10.779] [file-log] [info] Texture: Load success
+[2025-01-27 19:44:10.783] [file-log] [info] Texture: Load success
+[2025-01-27 19:44:10.783] [file-log] [info] Window: Initializing
+[2025-01-27 19:44:24.714] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:46:19.930] [file-log] [info] Main: Initializing
+[2025-01-27 19:46:20.108] [file-log] [info] Background: Initializing
+[2025-01-27 19:46:20.173] [file-log] [info] Texture: Load success
+[2025-01-27 19:46:20.175] [file-log] [info] Texture: Load success
+[2025-01-27 19:46:20.180] [file-log] [info] Texture: Load success
+[2025-01-27 19:46:20.180] [file-log] [info] Window: Initializing
+[2025-01-27 19:46:35.517] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:48:19.849] [file-log] [info] Main: Initializing
+[2025-01-27 19:48:20.028] [file-log] [info] Background: Initializing
+[2025-01-27 19:48:20.099] [file-log] [info] Texture: Load success
+[2025-01-27 19:48:20.102] [file-log] [info] Texture: Load success
+[2025-01-27 19:48:20.102] [file-log] [info] Window: Initializing
+[2025-01-27 19:48:56.451] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:53:43.158] [file-log] [info] Main: Initializing
+[2025-01-27 19:53:43.324] [file-log] [info] Background: Initializing
+[2025-01-27 19:53:43.400] [file-log] [info] Texture: Load success
+[2025-01-27 19:53:43.403] [file-log] [info] Texture: Load success
+[2025-01-27 19:53:43.403] [file-log] [info] Window: Initializing
+[2025-01-27 19:53:46.219] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 19:56:42.408] [file-log] [info] Main: Initializing
+[2025-01-27 19:56:42.573] [file-log] [info] Background: Initializing
+[2025-01-27 19:56:42.638] [file-log] [info] Texture: Load success
+[2025-01-27 19:56:42.638] [file-log] [info] Window: Initializing
+[2025-01-27 19:56:52.674] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:02:02.207] [file-log] [info] Main: Initializing
+[2025-01-27 20:02:02.408] [file-log] [info] Background: Initializing
+[2025-01-27 20:02:02.473] [file-log] [info] Texture: Load success
+[2025-01-27 20:02:02.475] [file-log] [info] Texture: Load success
+[2025-01-27 20:02:02.475] [file-log] [info] Window: Initializing
+[2025-01-27 20:02:09.861] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:05:20.972] [file-log] [info] Main: Initializing
+[2025-01-27 20:05:21.139] [file-log] [info] Background: Initializing
+[2025-01-27 20:05:21.204] [file-log] [info] Texture: Load success
+[2025-01-27 20:05:21.206] [file-log] [info] Texture: Load success
+[2025-01-27 20:05:21.210] [file-log] [info] Texture: Load success
+[2025-01-27 20:05:21.210] [file-log] [info] Window: Initializing
+[2025-01-27 20:09:20.798] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:11:07.124] [file-log] [info] Main: Initializing
+[2025-01-27 20:11:07.303] [file-log] [info] Background: Initializing
+[2025-01-27 20:11:07.371] [file-log] [info] Texture: Load success
+[2025-01-27 20:11:07.374] [file-log] [info] Texture: Load success
+[2025-01-27 20:11:07.379] [file-log] [info] Texture: Load success
+[2025-01-27 20:11:07.379] [file-log] [info] Window: Initializing
+[2025-01-27 20:11:14.060] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:12:59.784] [file-log] [info] Main: Initializing
+[2025-01-27 20:12:59.987] [file-log] [info] Background: Initializing
+[2025-01-27 20:13:00.108] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:00.110] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:00.115] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:00.119] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:00.119] [file-log] [info] Window: Initializing
+[2025-01-27 20:13:08.823] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:13:51.015] [file-log] [info] Main: Initializing
+[2025-01-27 20:13:51.190] [file-log] [info] Background: Initializing
+[2025-01-27 20:13:51.258] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:51.260] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:51.265] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:51.268] [file-log] [info] Texture: Load success
+[2025-01-27 20:13:51.268] [file-log] [info] Window: Initializing
+[2025-01-27 20:14:19.787] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:15:10.671] [file-log] [info] Main: Initializing
+[2025-01-27 20:15:10.856] [file-log] [info] Background: Initializing
+[2025-01-27 20:15:10.932] [file-log] [info] Texture: Load success
+[2025-01-27 20:15:10.935] [file-log] [info] Texture: Load success
+[2025-01-27 20:15:10.939] [file-log] [info] Texture: Load success
+[2025-01-27 20:15:10.943] [file-log] [info] Texture: Load success
+[2025-01-27 20:15:10.943] [file-log] [info] Window: Initializing
+[2025-01-27 20:15:28.171] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:17:34.862] [file-log] [info] Main: Initializing
+[2025-01-27 20:17:35.028] [file-log] [info] Background: Initializing
+[2025-01-27 20:17:35.097] [file-log] [info] Texture: Load success
+[2025-01-27 20:17:35.100] [file-log] [info] Texture: Load success
+[2025-01-27 20:17:35.104] [file-log] [info] Texture: Load success
+[2025-01-27 20:17:35.108] [file-log] [info] Texture: Load success
+[2025-01-27 20:17:35.108] [file-log] [info] Window: Initializing
+[2025-01-27 20:18:13.563] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:24:12.511] [file-log] [info] Main: Initializing
+[2025-01-27 20:24:12.680] [file-log] [info] Background: Initializing
+[2025-01-27 20:24:12.748] [file-log] [info] Texture: Load success
+[2025-01-27 20:24:12.750] [file-log] [info] Texture: Load success
+[2025-01-27 20:24:12.754] [file-log] [info] Texture: Load success
+[2025-01-27 20:24:12.758] [file-log] [info] Texture: Load success
+[2025-01-27 20:24:12.758] [file-log] [info] Window: Initializing
+[2025-01-27 20:44:19.156] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:44:51.270] [file-log] [info] Main: Initializing
+[2025-01-27 20:44:51.441] [file-log] [info] Background: Initializing
+[2025-01-27 20:44:51.506] [file-log] [info] Texture: Load success
+[2025-01-27 20:44:51.508] [file-log] [info] Texture: Load success
+[2025-01-27 20:44:51.513] [file-log] [info] Texture: Load success
+[2025-01-27 20:44:51.517] [file-log] [info] Texture: Load success
+[2025-01-27 20:44:51.517] [file-log] [info] Window: Initializing
+[2025-01-27 20:44:55.364] [file-log] [info] Window: Close button has been pressed
+[2025-01-27 20:56:25.382] [file-log] [info] Main: Initializing
+[2025-01-27 20:56:25.555] [file-log] [info] Background: Initializing
+[2025-01-27 20:56:25.638] [file-log] [info] Texture: Load success
+[2025-01-27 20:56:25.640] [file-log] [info] Texture: Load success
+[2025-01-27 20:56:25.645] [file-log] [info] Texture: Load success
+[2025-01-27 20:56:25.648] [file-log] [info] Texture: Load success
+[2025-01-27 20:56:25.648] [file-log] [info] Window: Initializing
+[2025-01-27 20:57:16.644] [file-log] [info] Window: Close button has been pressed

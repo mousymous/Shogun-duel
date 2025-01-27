@@ -6,10 +6,9 @@
 class Rect {
 public:
 
-    Rect( bool is_rect_visible, sf::Color color, sf::Vector2f rect_position, float rect_speed) {
+    Rect( bool is_rect_visible, sf::Color color, sf::Vector2f rect_position) {
         rect_set_visible(is_rect_visible);
         rect_set_position(rect_position);
-        rect_set_speed(rect_speed);
         rect_set_color(color);
     }
 
@@ -29,11 +28,6 @@ public:
     void rect_set_color(sf::Color color) {
         rect.setFillColor(color);
     }
-
-    // Rect Speed set up
-    void rect_set_speed(float speed){
-        rect_speed = speed;
-    };
 
     // Getter function that returns rect as reference
     sf::RectangleShape & get_rect() {

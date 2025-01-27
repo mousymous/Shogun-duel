@@ -15,6 +15,7 @@
 #include "spritesheet.hpp"
 #include "backgroung.hpp"
 #include "rect.hpp"
+#include "entity.hpp"
 #include "window.hpp"
 
 #endif

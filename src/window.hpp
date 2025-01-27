@@ -17,7 +17,7 @@ public:
     {}
 
     // Initialize the winodw canvas
-    void window_init(Background &mountain_background) {
+    void window_init(Background &mountain_background, Entity& samurai) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Sets window FPS to 60
@@ -37,9 +37,12 @@ public:
                 }
             }
 
+            samurai.movement();
+
             // A Section to render sprites and other behavior events
             window -> clear();
             window -> draw(mountain_background.get_background());
+            window -> draw(samurai.get_rect());
             window -> display();
         }
 

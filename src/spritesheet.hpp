@@ -34,10 +34,6 @@ public:
         }
 
         logger::LOG_INTO -> info("Texture: Load success");
-
-        // Initializes the referenced rect it's texture
-        entity_rect.setTexture(&entity_texture);
-        entity_rect.setTextureRect(sf::IntRect(0, 0, width, height));
     };
 
     /*
@@ -53,6 +49,7 @@ public:
             current_frame = (current_frame + 1) % number_of_frames;
 
             // Explanation 2.0
+            entity_rect.setTexture(&entity_texture);
             entity_rect.setTextureRect(sf::IntRect((current_frame * width), 0, width, height));
 
             // Explanation 3.0

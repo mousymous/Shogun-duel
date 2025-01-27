@@ -93,16 +93,17 @@ I wrote this so that I know what to do next, as this project is too big for me t
   2. it now has a function getter that returns the rect variable as a reference<br>
 ---<br>
 
-## Things to Add<br>
+### New! <br>
+## Entity (entity.hpp)
 
-- **Entity Class**:<br>
-  After fixing `Rect Class` and making changes to `Spritesheet Class`, combine the two to create an `Entity Class`.<br>
-  - The `Entity` object should represent the samurai with proper textures and animations based on movement direction and other entities.<br>
+- **Purpose**: <br>
+    `Entity` is a class that can be used to create entities with 2 direction movement in x and -x <br>
+     controlled with controls `A` and `D` and an attack mechanic that works when pressing `Space Bar`
+     1. It takes 5 arguments Rect, 4 spritesheet class and entity movement speed
+     2. With proper arguments you can create a functioning entity
 
-- **Notes**:<br>
-  - Rect class and Spritesheet Class can now work together externally<br>
-  - Focus on creating `Entity Class` first and prioritize its implementation.<br>
-    - Entity Movement<br>
-    - Entity proper animation texture based on movement direction<br>
-    - Entity Attack Animation<br>
+---<br>
+
+- **Things to do**:<br>
+  - Add descriptive comments and logs in file `entity.hpp`
   - Do not worry about health bars and hitboxes for now; those can be addressed later.<br>
