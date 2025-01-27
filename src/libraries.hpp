@@ -8,6 +8,7 @@
 // Standard libraries
 #include <iostream>
 #include <cstdint>
+#include <cmath>
 
 // Personal libraries
 #include "logger.hpp"
