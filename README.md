@@ -84,18 +84,25 @@ I wrote this so that I know what to do next, as this project is too big for me t
   - Utilizes `sf::RectangleShape`, which comes with pre-coded hitbox properties.<br>
 
 - **Things to Change**:<br>
-  1. Remove the movement function from the `Rect`.<br>
-  2. Encapsulate the `rect` variable and use a getter function to draw it in the window.<br>
-  3. Add loggers and comments to the class.<br>
+  1. ✅ Remove the movement function from the `Rect`.<br>
+  2. ✅ Encapsulate the `rect` variable and use a getter function to draw it in the window.<br>
+  3. ✅ Add loggers and comments to the class.<br>
 
+- **Added**
+  1. You can now a custom color for the rect<br>
+  2. it now has a function getter that returns the rect variable as a reference<br>
 ---<br>
 
 ## Things to Add<br>
 
-- **Player Class**:<br>
-  After fixing `Rect` and making changes to `Texture`, combine the two to create a `Player`.<br>
-  - The `Player` should represent the samurai with proper textures and animations based on movement direction.<br>
+- **Entity Class**:<br>
+  After fixing `Rect` and making changes to `Texture`, combine the two to create a `Entity`.<br>
+  - The `Entity` should represent the samurai with proper textures and animations based on movement direction and other entities.<br>
 
 - **Notes**:<br>
-  - Focus on the `Player` first and prioritize its implementation.<br>
+  - Rect class and Spritesheet Class can now work together externally<br>
+  - Focus on creating `Entity Class` first and prioritize its implementation.<br>
+    - Entity Movement<br>
+    - Entity proper animation texture based on movement direction<br>
+    - Entity Attack Animation<br>
   - Do not worry about health bars and hitboxes for now; those can be addressed later.<br>

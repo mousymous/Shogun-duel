@@ -1,19 +1,17 @@
 #include "libraries.hpp"
 
-#ifndef PLAYER_HPP
-#define PLAYER_HPP
+#ifndef RECT_HPP
+#define RECT_HPP
 
 class Rect {
 public:
 
-    Rect( bool is_player_visible, sf::Vector2f player_position, float player_speed) {
-        rect_set_visible(is_player_visible);
-        rect_set_position(player_position);
-        rect_set_speed(player_speed);
+    Rect( bool is_rect_visible, sf::Color color, sf::Vector2f rect_position, float rect_speed) {
+        rect_set_visible(is_rect_visible);
+        rect_set_position(rect_position);
+        rect_set_speed(rect_speed);
+        rect_set_color(color);
     }
-
-    // rect variable
-    sf::RectangleShape rect{sf::Vector2f(200, 200)};
 
     // Sets the rect position
     void rect_set_position(sf::Vector2f player_position) {
@@ -27,25 +25,28 @@ public:
         } 
     }
 
+    // Sets rect color
+    void rect_set_color(sf::Color color) {
+        rect.setFillColor(color);
+    }
+
     // Rect Speed set up
     void rect_set_speed(float speed){
         rect_speed = speed;
     };
 
-    // Rect Movement Logic
-    void rect_movement_logic() {
-        if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-            rect.move(rect_speed, 0);
-        }
-
-        if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
-            rect.move(-rect_speed, 0);
-        }
+    // Getter function that returns rect as reference
+    sf::RectangleShape & get_rect() {
+        return rect;
     }
 
 private:
-    sf::Clock clock;
+
+    // Rect Speed
     float rect_speed;
+
+     // Rect variable
+    sf::RectangleShape rect{sf::Vector2f(200, 200)};
 };
 
 #endif
