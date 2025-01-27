@@ -98,7 +98,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 - **Purpose**: <br>
     `Entity` is a class that can be used to create entities with 2 direction movement in x and -x <br>
-     controlled with controls `A` and `D` and an attack mechanic that works when pressing `Space Bar`<br
+     controlled with controls `A` and `D` and an attack mechanic that works when pressing `Space Bar`<br>
 
 - **Features:**<br>
      1. It takes 5 arguments Rect, 4 spritesheet class and entity movement speed<br>
