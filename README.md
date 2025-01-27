@@ -22,9 +22,9 @@
 2. Add proper logging<br>
 
 3. Configure Rect Class to make it as a modular template for creating entities<br>
-  -Textures will be the job of Texture_Class instead<br>
+  - Textures will be the job of Texture_Class instead<br>
 4. Add Player Class and by using Rect Class and Texture Class create a samurai<br>
-   -with proper animation based on movements
+  - with proper animation based on movements
 
 # Notes for Self!<br>
 
