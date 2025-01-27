@@ -84,9 +84,9 @@ I wrote this so that I know what to do next, as this project is too big for me t
   - Utilizes `sf::RectangleShape`, which comes with pre-coded hitbox properties.<br>
 
 - **Things to Change**:<br>
-  1. ✅ Remove the movement function from the `Rect`.<br>
-  2. ✅ Encapsulate the `rect` variable and use a getter function to draw it in the window.<br>
-  3. ✅ Add loggers and comments to the class.<br>
+  1. ✅ Remove the movement function from the `Rect`. (completed)<br>
+  2. ✅ Encapsulate the `rect` variable and use a getter function to draw it in the window.(completed) <br>
+  3. ✅ Add loggers and comments to the class.(completed)<br>
 
 - **Added**
   1. You can now have a custom color for the rect<br>
@@ -107,5 +107,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 ---<br>
 
 ### Things to do:<br>
-  - Add descriptive comments and logs in file `entity.hpp`<br>
-  - Do not worry about health bars and hitboxes for now; those can be addressed later.<br>
+  - logs in file `entity.hpp`<br>
+  - Add Hitbox mechanics
+  - Add Health mechanics
+  - Don't worry adding a bot opponent for now, just focus on the list above
