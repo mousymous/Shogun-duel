@@ -111,3 +111,4 @@ I wrote this so that I know what to do next, as this project is too big for me t
   - Add Hitbox mechanics
   - Add Health mechanics
   - Don't worry adding a bot opponent for now, just focus on the list above
+  - Learn About Shaders too to add cool effects but only do that when the game is finished
