@@ -82,6 +82,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 - **Features**:<br>
   - Utilizes `sf::RectangleShape`, which comes with pre-coded hitbox properties.<br>
+  - You can enable or disable visible outline for collision testing
 
 - **Things to Change**:<br>
   1. ✅ Remove the movement function from the `Rect`. (completed)<br>
@@ -107,7 +108,6 @@ I wrote this so that I know what to do next, as this project is too big for me t
 ---<br>
 
 ### Things to do:<br>
-  - logs in file `entity.hpp`<br>
   - Add Hitbox mechanics
   - Add Health mechanics
   - Don't worry adding a bot opponent for now, just focus on the list above

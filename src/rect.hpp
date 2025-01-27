@@ -6,8 +6,9 @@
 class Rect {
 public:
 
-    Rect( bool is_rect_visible, sf::Color color, sf::Vector2f rect_position) {
-        rect_set_visible(is_rect_visible);
+    Rect( bool rect_visible, bool rect_outline ,sf::Color color, sf::Vector2f rect_position) {
+        rect_set_visible(rect_visible);
+        rect_set_outline(rect_outline);
         rect_set_position(rect_position);
         rect_set_color(color);
     }
@@ -27,6 +28,14 @@ public:
     // Sets rect color
     void rect_set_color(sf::Color color) {
         rect.setFillColor(color);
+    }
+
+    // Sets rect outline visibility
+    void rect_set_outline(bool outline) {
+        if (outline == true) {
+            rect.setOutlineThickness(0.8f);
+            rect.setOutlineColor(sf::Color::Red);
+        }
     }
 
     // Getter function that returns rect as reference

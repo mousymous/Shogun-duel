@@ -28,21 +28,20 @@ class Entity {
                 isMoving = true;    // set isMoving to true
             }
 
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
                 entity_rect.get_rect().move(-movement_speed, 0);
                 left.animate_entity();
                 isMoving = true;
             } 
 
-             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
-                entity_rect.get_rect().move(-0.2, 0);
+            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
                 attack.animate_entity();
                 isMoving = true;
             } 
             
         // This one is a special if statement  so that it animates the idle animation when no
         // movement key is pressed
-            if (!isMoving){
+            else if (!isMoving){
                  idle.animate_entity();
             }
         }
