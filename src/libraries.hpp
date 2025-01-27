@@ -12,7 +12,7 @@
 
 // Personal libraries
 #include "logger.hpp"
-#include "texture.hpp"
+#include "spritesheet.hpp"
 #include "backgroung.hpp"
 #include "rect.hpp"
 #include "window.hpp"

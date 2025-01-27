@@ -40,7 +40,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 ---<br>
 
-## Background Class (`background.hpp`)<br>
+## Background (`background.hpp`)<br>
 
 - **Purpose**:<br>
   This class is now modular and templated. It takes the image path as an argument and uses it in the `setup_background()` function.<br>
@@ -53,7 +53,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 ---<br>
 
-## Window Class (`window.hpp`)<br>
+## Window (`window.hpp`)<br>
 
 - **Purpose**:<br>
   This class is not templated but serves as a container. All events and updates are managed within the class object.<br>
@@ -64,7 +64,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 ---<br>
 
-## Texture Class (`texture.hpp`)<br>
+## Spritesheet_Animator(`texture.hpp`)<br>
 
 - **Purpose**:<br>
   This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect_Class::rect`).<br>
@@ -74,7 +74,7 @@ I wrote this so that I know what to do next, as this project is too big for me t
 
 ---<br>
 
-## Rect Class (`rect.hpp`)<br>
+## Rect (`rect.hpp`)<br>
 
 - **Purpose**:<br>
   This class serves as a template for creating new entities.<br>

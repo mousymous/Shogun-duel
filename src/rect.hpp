@@ -3,10 +3,10 @@
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 
-class Rect_Class {
+class Rect {
 public:
 
-    Rect_Class( bool is_player_visible, sf::Vector2f player_position, float player_speed) {
+    Rect( bool is_player_visible, sf::Vector2f player_position, float player_speed) {
         rect_set_visible(is_player_visible);
         rect_set_position(player_position);
         rect_set_speed(player_speed);

@@ -3,7 +3,7 @@
 #ifndef WINDOWS_HPP
 #define WINDOWS_HPP
 
-class Window_Class {
+class Window {
 
 public:
 
@@ -11,13 +11,13 @@ public:
         Class Constructor that initialize the window_attribute structure (which contains the member of windows width, height and title)
         And the window smart pointer in the initialazation list
     */
-    Window_Class() : 
+    Window() : 
         window_attribute(), 
         window{std::make_unique<sf::RenderWindow>(sf::VideoMode(window_attribute.WINDOW_WIDTH, window_attribute.WINDOW_HEIGHT), window_attribute.WINDOW_TITLE)}
     {}
 
     // Initialize the winodw canvas
-    void window_init(Background_Class &mountain_background) {
+    void window_init(Background &mountain_background) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Sets window FPS to 60

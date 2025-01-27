@@ -3,7 +3,7 @@
 #ifndef BACKGROUND_HPP
 #define BACKGROUND_HPP
 
-class Background_Class {
+class Background {
 public:
     
     /*
@@ -12,7 +12,7 @@ public:
 
         Ad takes windoow size in it's second parameter and pass it as an argument to setup_background()
     */
-    Background_Class(std::string background_path, const sf::Vector2u &window_size) 
+    Background(std::string background_path, const sf::Vector2u &window_size) 
         : path_to_background{background_path}
     {
         setup_background(window_size);
