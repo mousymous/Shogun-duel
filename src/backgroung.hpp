@@ -10,7 +10,7 @@ public:
         Background Constructor that takes background image path to render
         and assign it to path_to_background in the initializer list
 
-        Ad takes windoow size in it's second parameter and pass it as an argument to setup_background()
+        And takes windoow size in it's second parameter and pass it as an argument to setup_background()
     */
     Background(std::string background_path, const sf::Vector2u &window_size) 
         : path_to_background{background_path}
