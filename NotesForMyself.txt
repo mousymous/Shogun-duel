@@ -11,12 +11,13 @@ Logger (logger.hpp):
 
 Background_Class (background.hpp):
 
-    This Class is not a template but just a container for the background of the game
-    which is the shogun-duel-background.png in the resources/background folder.
+    This Class is now a template and modular, it takes the image path as an argument
+    and passes it to it's member function setup_background()
 
-    I made it it's own class for modularity and organization
+    Things to add:
+        (Done) - Function getter for the sprite variables
 
-    don't touch this unless you will add animation for the background but that's just a problem for the future
+    don't touch this any further unless you will add animation for the background but that's just a problem for the future
 
 Window_Class (window.hpp):
 

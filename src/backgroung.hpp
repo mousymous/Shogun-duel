@@ -6,19 +6,28 @@
 class Background_Class {
 public:
     
-    // Background Constructor to thats fetchs widnow size and pass it as an argument to setup_background()
-    Background_Class(const sf::Vector2u &window_size) {
+    /*
+        Background Constructor that takes background image path to render
+        and assign it to path_to_background in the initializer list
+
+        Ad takes windoow size in it's second parameter and pass it as an argument to setup_background()
+    */
+    Background_Class(std::string background_path, const sf::Vector2u &window_size) 
+        : path_to_background{background_path}
+    {
         setup_background(window_size);
     }
 
-    sf::Texture background_texture;
-    sf::Sprite background_sprite;
+    sf::Sprite get_background() {
+        return background_sprite;
+    }
 
 private:
 
-    sf::String path_to_background {"../resources/background/shogun-duel-background.png"};
-
-    // Background Set up function that takes window -> getSize() sa arguments
+    /*
+        A function that takes window -> getSize() as it argument to calculate the background images 
+        proper width and height (the width and height of the background image should be the same as the window's)
+    */ 
     void setup_background(const sf::Vector2u &window_size) {
 
         logger::LOG_INTO -> info ("Background: Initializing");
@@ -35,6 +44,10 @@ private:
             static_cast<float>(window_size.y) / background_texture.getSize().y
         );
     }
+
+    sf::String path_to_background;
+    sf::Texture background_texture;
+    sf::Sprite background_sprite;
 
 };
 

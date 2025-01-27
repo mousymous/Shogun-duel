@@ -32,7 +32,7 @@ public:
 
             // Render Sprites here under window -> clear();
             window -> clear();
-            window -> draw(mountain_background.background_sprite);
+            window -> draw(mountain_background.get_background());
             window -> display();
         }
 
