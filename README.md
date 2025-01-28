@@ -28,7 +28,7 @@
 
 **I wrote this so that I know what to do next, as this project is too big for me to remember it all.**<br>
 
----<br>
+---
 
 ## Logger (`logger.hpp`)<br>
 
@@ -36,7 +36,7 @@
   This header does not contain a class but handles the initialization and error handling for the **SPDLOG** logger.<br>
   The pointer `LOG_INTO` (inside the `logger::` namespace) writes log information to `logs/logs.texture`.<br>
 
----<br>
+---
 
 ## Background (`background.hpp`)<br>
 
@@ -49,7 +49,7 @@
 - **Notes**:<br>
   Avoid making further changes unless you are adding animations for the background, which is a task for the future.<br>
 
----<br>
+---
 
 ## Window (`window.hpp`)<br>
 
@@ -60,7 +60,7 @@
   1. ✅ Add proper comments.(completed)<br>
   2. ✅ Add more logging. (completed)<br>
 
----<br>
+---
 
 ## Spritesheet_Animator(`spritesheet.hpp`)<br>
 
@@ -68,7 +68,7 @@
   This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect::rect`).<br>
 
 
----<br>
+---
 
 ## Rect (`rect.hpp`)<br>
 
@@ -84,9 +84,9 @@
 - **Added**
   1. You can now have a custom color for the rect<br>
   2. it now has a function getter that returns the rect variable as a reference<br>
----<br>
 
-### New! <br>
+---
+
 ## Entity (entity.hpp)
 
 - **Purpose**: <br>
@@ -102,7 +102,7 @@
      1. It takes 7 arguments a Rect, 4 spritesheet class, entity movement speed and control type<br>
      2. With proper arguments you can create a functioning entity<br>
 
----<br>
+---
 
 ## Entity_Database (entitydatabase.hpp)<br>
 
@@ -124,7 +124,11 @@
     2. It is still not perfect so when adding a entity in the database make sure to leave a comment on which ID it has<br>
       - for example `entity_database.add_entity(object) // ID 0`.<br>
 
+--- 
+
 ### Things to do:<br> 
+
+  - Add parallax effect in the background
   - Add Hitbox mechanics
   - Add Health mechanics
   - Don't worry adding a bot opponent for now, just focus on the list above
