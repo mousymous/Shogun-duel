@@ -1,18 +1,17 @@
-# Shogun-duel
+# Shogun-duel Game-engine 
 
 ## A Work-in-Progress Project
 
 - **Developer**: Mousymous<br>
-- **Theme**: Silouhette<br>
-- **Description**:    A Work on Progress Project written in C++ of two shogun having a duel.<br>
+- **Description**: A Work on Progress Project written in C++ that suppose to be a game called Shogun-duel but it became a game engine instead.<br>
 
-## Design:
+## Orginal Design:
 
-- Two Shogun figthing in the middle of the white spot of the battle field, miniture, traditional sword fight
+- ~~Two Shogun figthing in the middle of the white spot of the battle field, miniture, traditional sword fight~~
 
 ## Problem:
 
-- **The project became a game engine without realizing it:>**
+- The project became a game engine without realizing it:>
 
 ## Dependencies for compilation:
 
@@ -24,11 +23,6 @@
 
 1. Add proper descriptive comments to all file<br>
 2. Add proper logging<br>
-
-3. Configure Rect Class to make it as a modular template for creating entities<br>
-  - Textures will be the job of Texture instead<br>
-4. Add Player Class and by using Rect Class and Texture Class create a samurai<br>
-  - with proper animation based on movements
 
 # Notes for Self!<br>
 
