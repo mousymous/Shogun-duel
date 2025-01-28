@@ -67,8 +67,6 @@
 - **Purpose**:<br>
   This class fetches spritesheets, animates them, and applies them as textures to entities (e.g., `Rect::rect`).<br>
 
-- **Things to Change**:<br>
-  1. ✅ Add comments to explain the functionality to avoid forgetting how it works. (completed)<br>
 
 ---<br>
 
@@ -80,12 +78,8 @@
 
 - **Features**:<br>
   - Utilizes `sf::RectangleShape`, which comes with pre-coded hitbox properties.<br>
-  - You can enable or disable visible outline for collision testing
+  - You can enable or disable visible outline for collision testing 
 
-- **Things to Change**:<br>
-  1. ✅ Remove the movement function from the `Rect`. (completed)<br>
-  2. ✅ Encapsulate the `rect` variable and use a getter function to draw it in the window.(completed) <br>
-  3. ✅ Add loggers and comments to the class.(completed)<br>
 
 - **Added**
   1. You can now have a custom color for the rect<br>
@@ -97,18 +91,16 @@
 
 - **Purpose**: <br>
     `Entity` is a class that can be used to create entities with 2 direction movement in x and -x <br>
-     controlled with controls `A` and `D` and an attack mechanic that works when pressing `Space Bar`<br>
+     There's two control mechanics which are `arrow_keys()` which uses arrows and `letter_keys()` which uses letters<br>
+     and an attack mechanic that works when pressing `Space Bar`<br>
 
-- **Features:**<br>
-     1. It takes 5 arguments Rect, 4 spritesheet class and entity movement speed<br>
+- **Features**:<br>
+    - select the movement type you want by passing ` Entity::CONTROL_TYPE::LETTER_KEYS` or ` Entity::CONTROL_TYPE::ARROW_KEYS` in 
+      the last argument
+
+- **How to use:**<br>
+     1. It takes 7 arguments a Rect, 4 spritesheet class, entity movement speed and control type<br>
      2. With proper arguments you can create a functioning entity<br>
-
-- **Things to remember:**<br>
-    1. All entities that has been created by this class only have one control mechanism that means when
-       you put multiple entities they will move at the same time
-
-    **Reasons:**:
-    - It works that way because i intended to use this for only one entity which is the samurai.
 
 ---<br>
 

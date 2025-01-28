@@ -33,7 +33,7 @@ public:
     // Sets rect outline visibility
     void rect_set_outline(bool outline) {
         if (outline == true) {
-            rect.setOutlineThickness(0.8f);
+            rect.setOutlineThickness(1.0f);
             rect.setOutlineColor(sf::Color::Red);
         }
     }
