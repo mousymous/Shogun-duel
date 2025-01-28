@@ -10,6 +10,10 @@
 
 - Two Shogun figthing in the middle of the white spot of the battle field, miniture, traditional sword fight
 
+## Problem:
+
+- **The project became a game engine without realizing it:>**
+
 ## Dependencies for compilation:
 
 - **Standard C++ Library**<br>
@@ -28,7 +32,7 @@
 
 # Notes for Self!<br>
 
-I wrote this so that I know what to do next, as this project is too big for me to remember it all.<br>
+**I wrote this so that I know what to do next, as this project is too big for me to remember it all.**<br>
 
 ---<br>
 
@@ -105,9 +109,36 @@ I wrote this so that I know what to do next, as this project is too big for me t
      1. It takes 5 arguments Rect, 4 spritesheet class and entity movement speed<br>
      2. With proper arguments you can create a functioning entity<br>
 
+- **Things to remember:**<br>
+    1. All entities that has been created by this class only have one control mechanism that means when
+       you put multiple entities they will move at the same time
+
+    **Reasons:**:
+    - It works that way because i intended to use this for only one entity which is the samurai.
+
 ---<br>
 
-### Things to do:<br>
+## Entity_Database (entitydatabase.hpp)<br>
+
+-- **Purpose**<br>
+   `Entity_Database` class ia a database contains created etities and stores it in a vector list<br>
+
+- **Features:**<br>
+     1. The storing mechanism is scalable as it use `std::vector` to store entity object<br>
+        - The stored entity objects are not a copy but a refrences to existing one<br>
+        - To add an entity use `.add_entity()` member.<br>
+         > it takes a reference to an entity object as an argument and stores it in `entity_list` vector using `.push_back()`<br>
+        - To access an entity use `.get_entity()` member.<br>
+        > it takes an index and returns an etity object stored in that location<br>
+
+- **Notes**:<br>
+
+    1. The very first object that has been added has an ID number `0` and scales up as you add entities<br>
+
+    2. It is still not perfect so when adding a entity in the database make sure to leave a comment on which ID it has<br>
+      - for example `entity_database.add_entity(object) // ID 0`.<br>
+
+### Things to do:<br> 
   - Add Hitbox mechanics
   - Add Health mechanics
   - Don't worry adding a bot opponent for now, just focus on the list above

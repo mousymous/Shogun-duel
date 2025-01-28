@@ -16,8 +16,8 @@ public:
         window{std::make_unique<sf::RenderWindow>(sf::VideoMode(window_attribute.WINDOW_WIDTH, window_attribute.WINDOW_HEIGHT), window_attribute.WINDOW_TITLE)}
     {}
 
-    // Initialize the winodw canvas
-    void window_init(Background &mountain_background, Entity& samurai) {
+    // Initialize the winodw canvas, the second parameter takes a reference of a entity_database to access all created entities
+    void window_init(Background &mountain_background, Entity_Database &entity_database) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Sets window FPS to 60
@@ -37,15 +37,22 @@ public:
                 }
             }
 
-            samurai.movement();
+            // samurai movement mechanics
+            entity_database.get_entity(0).movement();
+            // samurai 2 movement mechanics
+            entity_database.get_entity(1).movement();
 
             // A Section to render sprites and other behavior events
             window -> clear();
             window -> draw(mountain_background.get_background());
-            window -> draw(samurai.get_rect());
+
+            // Render Samurai
+            window -> draw(entity_database.get_entity(0).get_rect());
+            // Render samurai 1
+            window -> draw(entity_database.get_entity(1).get_rect());
+
             window -> display();
         }
-
         window -> close();
     }
 

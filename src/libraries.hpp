@@ -8,6 +8,7 @@
 // Standard libraries
 #include <iostream>
 #include <cstdint>
+#include <vector>
 #include <cmath>
 
 // Personal libraries
@@ -16,6 +17,7 @@
 #include "backgroung.hpp"
 #include "rect.hpp"
 #include "entity.hpp"
+#include "entitydatabase.hpp"
 #include "window.hpp"
 
 #endif
