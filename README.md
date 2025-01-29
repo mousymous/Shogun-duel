@@ -38,17 +38,18 @@
 
 ---
 
-## Background (`background.hpp`)<br>
+## Background_Parralax (`background.hpp`)<br>
 
 - **Purpose**:<br>
-  This class is now modular and templated. It takes the image path as an argument and uses it in the `setup_background()` function.<br>
+   `Background_Parallax` this class is dedicated for setting up parallax effects in the background for 3D visuals<br>
 
-- **Current Features**:<br>
-  - ✅ Getter function for the sprite variables (completed).<br>
+- **Features:**<br>
+    - `.parallax_effect()` member simulates the effect according to the keyboard's pressed arrow keys `left` or `right`
+    - `Background_Parallax` constractor takes three arguments `background` `midground` `foreground` to set the effect
+    -  foreground moves slower than midground and background moves the slowest
 
-- **Notes**:<br>
-  Avoid making further changes unless you are adding animations for the background, which is a task for the future.<br>
-
+- **Notes**:
+    - foreground images must be long atleast a width of 1500 it really depends
 ---
 
 ## Window (`window.hpp`)<br>

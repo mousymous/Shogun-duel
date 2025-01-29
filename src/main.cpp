@@ -6,7 +6,8 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char ** argv) {
     logger::LOG_INTO -> info("Main: Initializing");
 
     Window main_window;
-    Background_Layers backgrounds(
+
+    Background_Parallax backgrounds(
     "../resources/background/silent-mountain/stars.png", 
     "../resources/background/silent-mountain/mountain.png",
     "../resources/background/silent-mountain/trees.png"

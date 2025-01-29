@@ -3,10 +3,11 @@
 #ifndef BACKGROUND_HPP
 #define BACKGROUND_HPP
 
-class Background_Layers {
+class Background_Parallax {
 public:
 
-    Background_Layers(std::string background, std::string midground, std::string foreground) {
+    Background_Parallax(std::string background, std::string midground, std::string foreground) {
+        logger::LOG_INTO -> info("Background: Initializing");
         load_layer_textures(background_texture, background);
         load_layer_textures(midgroud_texture, midground);
         load_layer_textures(foreground_texture, foreground);
@@ -19,7 +20,7 @@ public:
     };
 
     // Experimental parallax effect
-    void movement() {
+    void parallax_effect() {
         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
             background_layer.move(-bspeed, 0);
             midground_layer.move(-mspeed, 0);
@@ -33,6 +34,7 @@ public:
         }
     }
 
+    // Function getters
     sf::Sprite &get_background() {
         return background_layer;
     }
@@ -71,7 +73,9 @@ private:
         }
     }
 
-    // Assigns the proper texture for each background sprites.
+    // Assigns the proper texture for each background sprite.
+    // Set ground position to 0,0 
+    // scales them to 40% less of the actuall size
     void load_texture_to_layer(sf::Sprite &sprite, sf::Texture &texture) {
         sprite.setTexture(texture);
         sprite.setPosition(0, 0);

@@ -17,7 +17,7 @@ public:
     {}
 
     // Initialize the winodw canvas, the second parameter takes a reference of a entity_database to access all created entities
-    void window_init(Background_Layers &background, Entity_Database &entity_database) {
+    void window_init(Background_Parallax &background, Entity_Database &entity_database) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Sets window FPS to 60
@@ -39,7 +39,7 @@ public:
 
 
             // A Section to render sprites and other behavior events
-            background.movement();
+            background.parallax_effect();
             window -> clear(sf::Color::White);
             window -> draw(background.get_background());
             window -> draw(background.get_midground());
