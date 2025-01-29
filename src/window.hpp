@@ -17,7 +17,7 @@ public:
     {}
 
     // Initialize the winodw canvas, the second parameter takes a reference of a entity_database to access all created entities
-    void window_init(Background &mountain_background, Entity_Database &entity_database) {
+    void window_init(Background_Layers &background, Entity_Database &entity_database) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Sets window FPS to 60
@@ -37,20 +37,13 @@ public:
                 }
             }
 
-            // samurai movement mechanics
-            entity_database.get_entity(0).movement();
-            // samurai 2 movement mechanics
-            entity_database.get_entity(1).movement();
 
             // A Section to render sprites and other behavior events
-            window -> clear();
-            window -> draw(mountain_background.get_background());
-
-            // Render Samurai
-            window -> draw(entity_database.get_entity(0).get_rect());
-            // Render samurai 1
-            window -> draw(entity_database.get_entity(1).get_rect());
-
+            background.movement();
+            window -> clear(sf::Color::White);
+            window -> draw(background.get_background());
+            window -> draw(background.get_midground());
+            window -> draw(background.get_foreground());
             window -> display();
         }
         window -> close();
@@ -66,7 +59,7 @@ public:
 
 private:
     struct Window_Attribute {
-        std::int32_t WINDOW_WIDTH {900};
+        std::int32_t WINDOW_WIDTH {1000};
         std::int32_t WINDOW_HEIGHT {600};
         std::string WINDOW_TITLE {"SHOGUN DUEL"};
     } window_attribute;

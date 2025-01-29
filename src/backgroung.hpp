@@ -3,51 +3,80 @@
 #ifndef BACKGROUND_HPP
 #define BACKGROUND_HPP
 
-class Background {
+class Background_Layers {
 public:
-    
-    /*
-        Background Constructor that takes background image path to render
-        and assign it to path_to_background in the initializer list
 
-        And takes windoow size in it's second parameter and pass it as an argument to setup_background()
-    */
-    Background(std::string background_path, const sf::Vector2u &window_size) 
-        : path_to_background{background_path}
-    {
-        setup_background(window_size);
-    }
+    Background_Layers(std::string background, std::string midground, std::string foreground) {
+        load_layer_textures(background_texture, background);
+        load_layer_textures(midgroud_texture, midground);
+        load_layer_textures(foreground_texture, foreground);
 
-    sf::Sprite get_background() {
-        return background_sprite;
-    }
+        load_texture_to_layer(background_layer, background_texture);
+        load_texture_to_layer(midground_layer, midgroud_texture);
+        load_texture_to_layer(foreground_layer, foreground_texture);
 
-private:
 
-    /*
-        A function that takes window -> getSize() as it argument to calculate the background images 
-        proper width and height (the width and height of the background image should be the same as the window's)
-    */ 
-    void setup_background(const sf::Vector2u &window_size) {
+    };
 
-        logger::LOG_INTO -> info ("Background: Initializing");
-
-        // Load background imagae and handle errors
-        if(!background_texture.loadFromFile(path_to_background)) {
-            logger::LOG_INTO -> info("Background: Failed to load background");
-            exit(EXIT_FAILURE);
+    // Experimental parallax effect
+    void movement() {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+            background_layer.move(-bspeed, 0);
+            midground_layer.move(-mspeed, 0);
+            foreground_layer.move(-fspeed, 0);
         }
 
-        background_sprite.setTexture(background_texture);
-        background_sprite.setScale( 
-            static_cast<float>(window_size.x) / background_texture.getSize().x,
-            static_cast<float>(window_size.y) / background_texture.getSize().y
-        );
+         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+            background_layer.move(bspeed, 0);
+            midground_layer.move(mspeed, 0);
+            foreground_layer.move(fspeed, 0);
+        }
     }
 
-    sf::String path_to_background;
+    sf::Sprite &get_background() {
+        return background_layer;
+    }
+
+    sf::Sprite &get_midground() {
+        return midground_layer;
+    }
+
+    sf::Sprite &get_foreground() {
+        return foreground_layer;
+    }
+    
+private:
+    // Variables to hold textures
     sf::Texture background_texture;
-    sf::Sprite background_sprite;
+    sf::Texture midgroud_texture;
+    sf::Texture foreground_texture;
+
+    // variables to hold sprites of each ground
+    sf::Sprite background_layer;
+    sf::Sprite midground_layer;
+    sf::Sprite foreground_layer;
+
+    // speed of each ground for parallax effect
+    float bspeed = 0.1;
+    float mspeed = 0.3;
+    float fspeed = 0.5;
+
+    // A function that takes a reference to a sf::Texture and loads it's texture with
+    // Error handling
+    void load_layer_textures(sf::Texture &texture, std::string path) {
+
+        if(!texture.loadFromFile(path)) {
+            logger::LOG_INTO -> error("Background: Can't find path");
+            exit(EXIT_FAILURE);
+        }
+    }
+
+    // Assigns the proper texture for each background sprites.
+    void load_texture_to_layer(sf::Sprite &sprite, sf::Texture &texture) {
+        sprite.setTexture(texture);
+        sprite.setPosition(0, 0);
+        sprite.setScale(0.4, 0.4);
+    }
 
 };
 
