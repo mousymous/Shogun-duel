@@ -128,7 +128,7 @@
 
 ### Things to do:<br> 
 
-  - Add parallax effect in the background
+  - Add parallax effect in the background (Restructure the Background Class mechanics)
   - Add Hitbox mechanics
   - Add Health mechanics
   - Don't worry adding a bot opponent for now, just focus on the list above
