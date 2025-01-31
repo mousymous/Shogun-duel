@@ -20,17 +20,28 @@ public:
     };
 
     // Experimental parallax effect
-    void parallax_effect() {
-        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-            background_layer.move(-bspeed, 0);
-            midground_layer.move(-mspeed, 0);
-            foreground_layer.move(-fspeed, 0);
-        }
+    void parallax_effect(const sf::Vector2u window_size) {
 
+        // Move the Grounds to left when right arrow is pressed
+        // The inner if statement limits of how far the grounds can move to left when Right key is pressed
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+
+             // Calculates the right most position of the foreground 
+             float foreground_mostRight(foreground_layer.getGlobalBounds().left + foreground_layer.getGlobalBounds().width);
+             if(foreground_mostRight >= window_size.x) {
+                background_layer.move(-bspeed, 0);
+                midground_layer.move(-mspeed, 0);
+                foreground_layer.move(-fspeed, 0);
+             }
+        }
+        // Move the Grounds to right if left arrow is pressed
+        // The inner if statement limits of how far the grounds can move to right when the Left key is pressed
          if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-            background_layer.move(bspeed, 0);
-            midground_layer.move(mspeed, 0);
-            foreground_layer.move(fspeed, 0);
+            if(foreground_layer.getPosition().x <= minimum.x) {
+                background_layer.move(bspeed, 0);
+                midground_layer.move(mspeed, 0);
+                foreground_layer.move(fspeed, 0);
+            }
         }
     }
 
@@ -61,7 +72,10 @@ private:
     // speed of each ground for parallax effect
     float bspeed = 0.1;
     float mspeed = 0.3;
-    float fspeed = 0.5;
+    float fspeed = 0.4;
+
+    // Zero scale
+    sf::Vector2i minimum{0, 0};
 
     // A function that takes a reference to a sf::Texture and loads it's texture with
     // Error handling

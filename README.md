@@ -129,7 +129,7 @@
 
 ### Things to do:<br> 
 
-  - Fix Parallex effect mechanics to not render out the visible window
+  - (Fixed) ~~Fix Parallex effect mechanics to not render out the visible window~~
   - Add Hitbox mechanics
   - Add Health mechanics
   - Don't worry adding a bot opponent for now, just focus on the list above

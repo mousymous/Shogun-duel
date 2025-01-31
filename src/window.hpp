@@ -39,7 +39,7 @@ public:
 
 
             // A Section to render sprites and other behavior events
-            background.parallax_effect();
+            background.parallax_effect(window -> getSize());
             window -> clear(sf::Color::White);
             window -> draw(background.get_background());
             window -> draw(background.get_midground());
@@ -59,7 +59,7 @@ public:
 
 private:
     struct Window_Attribute {
-        std::int32_t WINDOW_WIDTH {1000};
+        std::int32_t WINDOW_WIDTH {980};
         std::int32_t WINDOW_HEIGHT {600};
         std::string WINDOW_TITLE {"SHOGUN DUEL"};
     } window_attribute;
