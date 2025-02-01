@@ -44,6 +44,11 @@ public:
             window -> draw(background.get_background());
             window -> draw(background.get_midground());
             window -> draw(background.get_foreground());
+
+            // Draw the samurai and enable movements
+            window -> draw(entity_database.get_entity(0).get_rect());
+            entity_database.get_entity(0).movement();
+
             window -> display();
         }
         window -> close();

@@ -24,7 +24,7 @@ public:
 
         // Move the Grounds to left when right arrow is pressed
         // The inner if statement limits of how far the grounds can move to left when Right key is pressed
-        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
 
              // Calculates the right most position of the foreground 
              float foreground_mostRight(foreground_layer.getGlobalBounds().left + foreground_layer.getGlobalBounds().width);
@@ -36,7 +36,7 @@ public:
         }
         // Move the Grounds to right if left arrow is pressed
         // The inner if statement limits of how far the grounds can move to right when the Left key is pressed
-         if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+         if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
             if(foreground_layer.getPosition().x <= minimum.x) {
                 background_layer.move(bspeed, 0);
                 midground_layer.move(mspeed, 0);
