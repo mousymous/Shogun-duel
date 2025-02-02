@@ -17,11 +17,12 @@ public:
     {}
 
     // Initialize the winodw canvas, the second parameter takes a reference of a entity_database to access all created entities
-    void window_init(Background_Parallax &background, Entity_Database &entity_database) {
+    void window_init( Music &musics, Background_Parallax &background, Entity_Database &entity_database) {
         logger::LOG_INTO -> info("Window: Initializing");
 
         // Sets window FPS to 60
         window -> setFramerateLimit(60);
+        musics.background_music().play();
 
         // Window Loop
         while (window -> isOpen()) {

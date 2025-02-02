@@ -6,6 +6,7 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char ** argv) {
     logger::LOG_INTO -> info("Main: Initializing");
 
     Window main_window;
+    Music musics("../resources/music/B.L.O.O.D.mp3");
 
     Background_Parallax backgrounds(
     "../resources/background/silent-mountain/stars.png", 
@@ -26,6 +27,6 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char ** argv) {
     Entity_Database entity_database;
     entity_database.add_entity(samurai);
 
-    main_window.window_init(backgrounds, entity_database);
+    main_window.window_init( musics, backgrounds, entity_database);
     return EXIT_SUCCESS;
 }

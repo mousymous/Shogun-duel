@@ -1,9 +1,9 @@
 # For Debug Build
 debug:
-	g++ main.cpp -o SHOGUN-DUEL -Wall -Wconversion -Weffc++ -pedantic-errors -lsfml-graphics -lsfml-window -lsfml-system -std=c++20 -g -ggdb -O0
+	g++ main.cpp -o SHOGUN-DUEL -Wall -Wconversion -Weffc++ -pedantic-errors -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -std=c++20 -g -ggdb -O0
 
 release:
-	g++ main.cpp -o SHOGUN-DUEL -pedantic-errors -lsfml-graphics -lsfml-window -lsfml-system -std=c++20 -g -O3 -DNDDEBUG
+	g++ main.cpp -o SHOGUN-DUEL -pedantic-errors -lsfml-graphics -lsfml-window -lsfml-system -lsmfl-audio -std=c++20 -O3 -DNDDEBUG
 
 # -O0 is an no-optimization flag for easier debugging
 # -pedantic-errors is a no-compiler-extension flag for generating a standard behavior
