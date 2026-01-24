@@ -2,7 +2,7 @@
 
 ## A Work-in-Progress Project
 
-- **Developer**: Mousymous<br>
+- **Developer**: Fen<br>
 - **Description**: A Work on Progress Project written in C++ that suppose to be a game called Shogun-duel but it became a game engine instead.<br>
 
 ## Orginal Design:
